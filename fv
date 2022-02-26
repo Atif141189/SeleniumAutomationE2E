@@ -1,0 +1,61 @@
+[33mcommit 6cdb766ebe4723588e12914b65c2b53c3914739a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Atif Hossain <atifhossain99@gmail.com>
+Date:   Fri Feb 25 18:55:34 2022 +0530
+
+    deleted dummy  page
+
+ src/main/java/com/qa/opencart/Pages/dummy.java | 10 [31m----------[m
+ 1 file changed, 10 deletions(-)
+
+[33mcommit 28f302552853c9295d3494575963a12c9d0ba897[m
+Author: Atif Hossain <atifhossain99@gmail.com>
+Date:   Fri Feb 25 18:51:40 2022 +0530
+
+    changed dummy code
+
+ src/main/java/com/qa/opencart/Pages/dummy.java | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit 5b5317fc059de581764b31390db75368d3515043[m
+Author: Atif Hossain <atifhossain99@gmail.com>
+Date:   Fri Feb 25 16:19:53 2022 +0530
+
+    new class added
+
+ src/main/java/com/qa/opencart/Pages/dummy.java | 10 [32m++++++++++[m
+ 1 file changed, 10 insertions(+)
+
+[33mcommit 96c2f098ab96f9c96f9bff05dfa09d2d3d16013a[m
+Author: Atif Hossain <atifhossain99@gmail.com>
+Date:   Fri Feb 25 07:39:18 2022 +0530
+
+    From stage to local repo
+
+ .ssh     | 8 [32m++++++++[m
+ .ssh.pub | 1 [32m+[m
+ 2 files changed, 9 insertions(+)
+
+[33mcommit 700dcf5aae9e3dc5ee82a92841e0b0a0017b1ea1[m
+Author: Atif Hossain <atifhossain99@gmail.com>
+Date:   Thu Feb 24 22:02:04 2022 +0530
+
+    intial code moving from stage to local repository
+
+ .gitignore                                         |  62 [32m+++[m
+ pom.xml                                            |  94 [32m+++++[m
+ .../Pages/AccountPageLandingReference.java         |  40 [32m++[m
+ src/main/java/com/qa/opencart/Pages/LoginPage.java |  62 [32m+++[m
+ .../com/qa/opencart/Pages/ProductInfoPage.java     |  22 [32m++[m
+ .../java/com/qa/opencart/Pages/ResultPage.java     |  49 [32m+++[m
+ .../java/com/qa/opencart/Utility/ElementUtil.java  | 432 [32m+++++++++++++++++++++[m
+ .../com/qa/opencart/Utility/JavaScriptUtil.java    |  94 [32m+++++[m
+ .../qa/opencart/driverfactory/DrivverFactory.java  | 104 [32m+++++[m
+ .../qa/opencart/driverfactory/optionsManager.java  |  29 [32m++[m
+ .../opencart/listeners/ExtentReportListener.java   | 121 [32m++++++[m
+ .../java/com/qa/opecart/tests/AccountPageTest.java |  24 [32m++[m
+ src/test/java/com/qa/opecart/tests/BaseTest.java   |  40 [32m++[m
+ .../java/com/qa/opecart/tests/LoginPageTests.java  |  15 [32m+[m
+ .../java/com/qa/opecart/tests/ResultPageTest.java  |  24 [32m++[m
+ src/test/resources/config/config.properties        |   2 [32m+[m
+ .../resources/testrunners/testng_resgression_suite |  20 [32m+[m
+ 17 files changed, 1234 insertions(+)
